@@ -1,0 +1,19 @@
+.keys-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90px;
+  height: 90px;
+  border: 2px solid rgb(98, 10, 10);
+}
+
+.key span {
+  text-transform: uppercase;
+}
