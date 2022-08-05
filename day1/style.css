@@ -17,3 +17,7 @@
 .key span {
   text-transform: uppercase;
 }
+
+.key.active {
+  background: red;
+}
